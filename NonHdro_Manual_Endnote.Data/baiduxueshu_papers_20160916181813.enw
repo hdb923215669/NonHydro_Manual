@@ -1,0 +1,150 @@
+%0 Journal Article
+%T A COORDINATE SYSTEM HAVING SOME SPECIAL ADVANTAGES FOR NUMERICAL FORECASTING
+%A Phillips, N. A.
+%J Journal of Atmospheric Sciences
+%V 14
+%N 1957
+%P 184-185
+%D 2010
+%X CiteSeerX - Scientific documents that cite the following paper: A coordinate system having some special advantages for numerical forecasting
+
+
+%0 Journal Article
+%T A σ‐coordinate three‐dimensional numerical model for surface wave propagation
+%A Lin, Pengzhi
+%A Li, C. W.
+%J International Journal for Numerical Methods in Fluids
+%V 38
+%N 11
+%P 1045-1068
+%D 2002
+%K σ‐coordinate transformation;three‐dimensional model;surface wave
+%X A three-dimensional numerical model based on the full Navier-Stokes equations (NSE) in -coordinate is developed in this study. The -coordinate transformation is first introduced to map the irregular physical domain with the wavy free surface and uneven bottom to the regular computational domain with the shape of a rectangular prism. Using the chain rule of partial differentiation, a new set of governing equations is derived in the -coordinate from the original NSE defined in the Cartesian coordinate. The operator splitting method (Li and Yu, Int. J. Num. Meth. Fluids 1996; 23: 485-501), which splits the solution procedure into the advection, diffusion, and propagation steps, is used to solve the modified NSE. The model is first tested for mass and energy conservation as well as mesh convergence by using an example of water sloshing in a confined tank. Excellent agreements between numerical results and analytical solutions are obtained. The model is then used to simulate two- and three-dimensional solitary waves propagating in constant depth. Very good agreements between numerical results and analytical solutions are obtained for both free surface displacements and velocities. Finally, a more realistic case of periodic wave train passing through a submerged breakwater is simulated. Comparisons between numerical results and experimental data are promising. The model is proven to be an accurate tool for consequent studies of wave-structure interaction. Copyright
+
+
+%0 Book
+%T Numerical heat transfer and fluid flow
+%A Patankar, S. V.
+%P 125–126
+%D 1980
+%K Computational Fluid Dynamics;Heat Transfer;Numerical Analysis;Algorithms;Boundary Value Problems;Conductive Heat Transfer;Convection;Coordinates;Differential Equations;Diffusion
+%X A mathematical description of physical phenomena is given and discretization methods are discussed. Heat conduction is considered along with convection and diffusion, and calculation of the flow field, source-term linearization, irregular geometries, two- and three-dimensional parabolic flow, partially parabolic flows, the finite-element method, and illustrative applications. Attention is given to governing differential equations, the nature of coordinates, the nature of numerical methods, methods of deriving the discretization equations, steady and unsteady one-dimensional conduction, two- and three-dimensional situations, overrelaxation and underrelaxation, and steady one-dimensional convection and diffusion. Discussed applications are related to developing flow in a curved pipe, combined convection in a horizontal tube, melting around a vertical pipe, turbulent flow and heat transfer in internally finned tubes, and a periodic fully developed duct flow.
+
+
+%0 Journal Article
+%T Godunov-Based Model for Nonhydrostatic Wave Dynamics
+%A Bradford, Scott F.
+%J Journal of Waterway Port Coastal & Ocean Engineering
+%V 131
+%N 5
+%P 226-238
+%D 2005
+%K Numerical models;Flow simulation;Wave propagation;Hydrostatics;Coastal environment
+%X A new numerical model based on the incompressible, nonhydrostatic Navier-Stokes equations for free surface flow is developed. The equations are transformed vertically to the coordinate system and laterally to an orthogonal curvilinear system and solved in a fractional step manner in which the pressure is split into hydrostatic and nonhydrostatic components. The model treats the nonhydrostatic term implicitly and uses a collocated grid and pressure interpolation to prevent checkerboard solutions that occur when the velocity and pressure become decoupled. Advection and hydrostatic pressure terms are integrated explicitly with a second-order accurate predictor-corrector scheme. The corrector utilizes fluxes that are computed in a Godunov-based manner by solving a Riemann problem at each cell face. Flow variables are reconstructed at each cell face to obtain second-order spatial accuracy. Numerical simulations of Stokes, cnoidal, and solitary waves with the proposed method and a reference method in which the hydrostatic pressure is implicitly integrated are compared with analytical solutions and experimental data.
+
+
+%0 Journal Article
+%T An implicit three‐dimensional fully non‐hydrostatic model for free‐surface flows
+%A Yuan, Hengliang
+%A Wu, Chin H.
+%J International Journal for Numerical Methods in Fluids
+%V 46
+%N 46
+%P 709-733
+%D 2004
+%K implicit;;three-dimensional;;fully non-hydrostatic;;top-layer pressure treatment;;free-surface flows
+%X An implicit method is developed for solving the complete three-dimensional (3D) Navier-Stokes equations. The algorithm is based upon a staggered finite difference Crank-Nicholson scheme on a Cartesian grid. A new top-layer pressure treatment and a partial cell bottom treatment are introduced so that the 3D model is fully non-hydrostatic and is free of any hydrostatic assumption. A domain decomposition method is used to segregate the resulting 3D matrix system into a series of two-dimensional vertical plane problems, for each of which a block tri-diagonal system can be directly solved for the unknown horizontal velocity. Numerical tests including linear standing waves, nonlinear sloshing motions, and progressive wave interactions with uneven bottoms are performed. It is found that the model is capable to simulate accurately a range of free-surface flow problems using a very small number of vertical layers (e.g. two-four layers). The developed model is second-order accuracy in time and space and is unconditionally stable; and it can be effectively used to model 3D surface wave motions.
+
+
+%0 Book
+%T On Upstream Differencing and Godunov-Type Schemes for Hyperbolic Conservation Laws
+%A Harten, Amiram
+%A Leer, Bram Van
+%I Springer Berlin Heidelberg
+%P 35-61
+%D 1997
+%X This paper reviews some of the recent developments in upstream difference schemes through a unified representation, in order to enable comparison between the various schemes. Special attention is given to the Godunov-type schemes that result from using an approximate solution of the Riemann problem. For schemes based on flux splitting, the approximate Riemann solution can be interpreted as a solution of the collisionless Boltzmann equation.
+
+
+%0 Journal Article
+%T Further experiences with computing non-hydrostatic free-surface flows involving water waves
+%A Zijlema, Marcel
+%A Stelling, Guus S.
+%J International Journal for Numerical Methods in Fluids
+%V 48
+%N 2
+%P 169–197
+%D 2005
+%K water waves;non-hydrostatic;finite volume;vertical boundary-fitted co-ordinate;semi-implicit
+%X Not Available
+
+
+%0 Journal Article
+%T Efficient computation of surf zone waves using the nonlinear shallow water equations with non-hydrostatic pressure
+%A Zijlema, M.
+%A Stelling, G. S.
+%J Coastal Engineering
+%V 55
+%N 10
+%P 780-790
+%D 2008
+%K Shallow water flow;Non-hydrostatic pressure;Surf zone;Breaking waves;Run-up;Computational efficiency
+%X A numerical method for non-hydrostatic, free-surface, irrotational flow governed by the nonlinear shallow water equations including the effects of vertical acceleration is presented at the aim of studying surf zone phenomena. A vertical boundary-fitted grid is used with the water depth divided into a number of layers. A compact finite difference scheme is employed for accurate computation of frequency dispersion requiring a limited vertical resolution and hence, capable of predicting the onset of wave breaking. A novel wet鈥揹ry algorithm is applied for a proper handling of moving shoreline. Mass and momentum are strictly conserved at discrete level while the method only dissipates energy in the case of wave breaking. The numerical results are verified with a number of tests and show that the proposed model using two layers without ad-hoc assumptions enables to resolve propagating nonlinear shoaling, breaking waves and wave run-up within the surf and swash zones in an efficient manner.
+
+
+%0 Journal Article
+%T Strong Stability-Preserving High-Order Time Discretization Methods
+%A Gottlieb, Sigal
+%A Shu, Chi-Wang
+%A Tadmor, Eitan
+%J Siam Review
+%V 43
+%N 1
+%P 89-112
+%D 2001
+%K Runge--Kutta methods;high-order accuracy;multistep methods;strong stability preserving;time discretization
+%X In this paper we review and further develop a class of strong stability-preserving (SSP) high-order time discretizations for semidiscrete method of lines approximations of partial differential equations. Previously termed TVD (total variation diminishing) time discretizations, these high-order time discretization methods preserve the strong stability properties of first-order Euler time stepping and have proved very useful, especially in solving hyperbolic partial differential equations. The new developments in this paper include the construction of optimal explicit SSP linear Runge--Kutta methods, their application to the strong stability of coercive approximations, a systematic study of explicit SSP multistep methods for nonlinear problems, and the study of the SSP property of implicit Runge--Kutta and multistep methods.  SOURCE MATERIALS     Additional Resources    See SIAM JOURNALS Online.
+
+
+%0 Journal Article
+%T The Surface Gradient Method for the Treatment of Source Terms in the Shallow-Water Equations
+%A Zhou, J. G.
+%A Causon, D. M.
+%A Mingham, C. G.
+%A Ingram, D. M.
+%J Journal of Computational Physics
+%V 168
+%N 1
+%P 1-25
+%D 2001
+%K source terms;shallow-water equations;data reconstruction;high-resolution method;Godunov method;MUSCL scheme
+%X A novel scheme has been developed for data reconstruction within a Godunov-type method for solving the shallow-water equations with source terms. In contrast to conventional data reconstruction methods based on conservative variables, the water surface level is chosen as the basis for data reconstruction. This provides accurate values of the conservative variables at cell interfaces so that the fluxes can be accurately calculated with a Riemann solver. The main advantages are: (1) a simple centered discretization is used for the source terms; (2) the scheme is no more complicated than the conventional method for the homogeneous terms; (3) small perturbations in the water surface elevation can be accurately predicted; and (4) the method is generally suitable for both steady and unsteady shallow-water problems. The accuracy of the scheme has been verified by recourse to both steady and unsteady flow problems. Excellent agreement has been obtained between the numerical predictions and analytical solutions. The results indicate that the new scheme is accurate, simple, efficient, and robust.
+
+
+%0 Journal Article
+%T Well-Balanced Scheme between Flux and Source Terms for Computation of Shallow-Water Equations over Irregular Bathymetry
+%A Kim, Dae Hong
+%A Cho, Yong Sik
+%A Kim, Hyung Jun
+%J Journal of Engineering Mechanics
+%V 134
+%N 4
+%P 277-290
+%D 2008
+%K Bathymetry;Computation;Critical flow;Numerical models;Shallow water
+%X Although many numerical techniques such as approximate Riemann solvers can be used to analyze subcritical and supercritical flows modeled by hyperbolic-type shallow-water equations, there are some difficulties in practical applications due to the numerical unbalance between source and flux terms. In this study, a revised surface gradient method is proposed that balances source and flux terms. The new numerical model employs the MUSCL 鈥 Hancock scheme and the HLLC approximate Riemann solver. Several verifications are conducted, including analyses of transcritical steady-state flows, unsteady dam break flows on a wet and dry bed, and flows over an irregular bathymetry. The model consistently returns accurate and reasonable results comparable to those obtained through analytical methods and laboratory experiments. The revised surface gradient method may be a simple but robust numerical scheme appropriate for solving hyperbolic-type shallow-water equations over an irregular bathymetry.
+
+
+%0 Journal Article
+%T Numerical resolution of well-balanced shallow water equations with complex source terms
+%A Liang, Qiuhua
+%A Marche, Fabien
+%J Advances in Water Resources
+%V 32
+%N 6
+%P 873-884
+%D 2009
+%K Shallow water equations;Well-balanced scheme;Wetting and drying;Source terms;Riemann solver;Bed friction
+%X This paper presents a well-balanced numerical scheme for simulating frictional shallow flows over complex domains involving wetting and drying. The proposed scheme solves, in a finite volume Godunov-type framework, a set of pre-balanced shallow water equations derived by considering pressure balancing. Non-negative reconstruction of Riemann states and compatible discretization of slope source term produce stable and well-balanced solutions to shallow flow hydrodynamics over complex topography. The friction source term is discretized using a splitting implicit scheme. Limiting value of the friction force is derived to ensure stability. This new numerical scheme is validated against four theoretical benchmark tests and then applied to reproduce a laboratory dam break over a domain with irregular bed profile.
+
+
